@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Illinois Tech University</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a9ed2692de.js" crossorigin="anonymous"async></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="index.html"><img src="images/Illinois-tech-university-logo.png" alt="illinois tech university logo"></a>
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fa-solid fa-xmark"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <img id="menu-btn" src="images/menu.png" alt="">
+            </div>
+        </nav>
+
+        <!-- Home Page Section -->
+        <section id="about-home">
+            <h2>About Illinois Tech University</h2>
+        </section>
+
+        <!-- About Page Section-->
+        <section id="about-container">
+            <div class="about-img">
+                <img src="images/pexels-pixabay-159775.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <h2>Welcome to Illinois Tech University, Enhance your skills with the best Online Courses we have to offer</h2>
+                <p>You can start and finish our popular courses in no time at all - Check out the list below</p>
+                <div class="about-fe">
+                    <img src="images/fe1.png" alt="">
+                    <div class="fe-text">
+                        <h5>400+ Courses</h5>
+                        <p>You can start and finish our most popular courses here on our site</p>
+                    </div>
+                </div>
+                <div class="about-fe">
+                    <img src="images/fe2.png" alt="">
+                    <div class="fe-text">
+                        <h5>Guaranteed Lifetime Access</h5>
+                        <p>You can start and finish our most popular courses here on our site</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Home Feature Section -->
+
+        <section id="features">
+            <h1>Awesome Features</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+            <div class="feature-base">
+                <div class="feature-box">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>Scholarship Information</h3>
+                <p>Even if you're on the right track, you'll get run over if you just sit there.</p>
+                </div>
+                <div class="feature-box">
+                    <i class="fa-solid fa-book"></i>
+                    <h3>Our Online Courses</h3>
+                    <p>Even if you're on the right track, you'll get run over if you just sit there.</p>
+                    </div>
+                <div class="feature-box">
+                    <i class="fa-solid fa-award"></i>
+                    <h3>Global Certifications</h3>
+                    <p>Even if you're on the right track, you'll get run over if you just sit there.</p>
+                    </div>
+            </div>
+        </section>
+
+        <!-- About Trust Section -->
+        <section id="trust">
+            <h1>Trusted By</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+            <div class="trust-img">
+                <img src="images/trust (1).png" alt="">
+                <img src="images/trust (2).png" alt="">
+                <img src="images/trust (3).png" alt="">
+                <img src="images/trust (4).png" alt="">
+                <img src="images/trust (5).png" alt="">
+                <img src="images/trust (6).png" alt="">
+            </div>
+        </section>
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Welcome to the latest news at Illinois Tech University.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2023 All rights reserved | This layout was made by Heidy Rodriguez for demonstration purposes</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+    </body>
+</html>

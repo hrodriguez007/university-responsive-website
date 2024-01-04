@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Illinois Tech University</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a9ed2692de.js" crossorigin="anonymous"async></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="index.html"><img src="images/Illinois-tech-university-logo.png" alt="illinois tech university logo"></a>
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fa-solid fa-xmark"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="blog.html">Blog</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <img id="menu-btn" src="images/menu.png" alt="">
+            </div>
+        </nav>
+
+        <!-- Home Page Section -->
+        <section id="about-home">
+            <h2>Blog</h2>
+        </section>
+
+        <section id="blog-container">
+            <div class="blogs">
+                <div class="post">
+                    <img src="images/pexels-danny-meneses-943096.jpg" alt="">
+                    <h3>Learn Web Development Easily</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam quam nulla porttitor massa.</p>
+                    <a href="post.html">Read More</a>
+                </div>
+                <div class="post">
+                    <img src="images/pexels-christina-morillo-1181677.jpg" alt="">
+                    <h3>Tips to Avoid Code Burnout</h3>
+                    <p>Volutpat blandit aliquam etiam erat velit. Sit amet aliquam id diam maecenas ultricies. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis. Et pharetra pharetra massa massa. Nam aliquam sem et tortor.</p>
+                    <a href="post2.html">Read More</a>
+                </div>
+                <div class="post">
+                    <img src="images/pexels-tranmautritam-326503.jpg" alt="">
+                    <h3>Application Coding Projects to Try</h3>
+                    <p>Non quam lacus suspendisse faucibus interdum posuere. Quam vulputate dignissim suspendisse in. Elementum integer enim neque volutpat ac tincidunt vitae. Aliquet nec ullamcorper sit amet risus nullam eget.</p>
+                    <a href="post3.html">Read More</a>
+                </div>
+                <div class="post">
+                    <img src="images/technology-1283624_1280.jpg" alt="">
+                    <h3>Javascript Basics to Know</h3>
+                    <p>Sed cras ornare arcu dui vivamus arcu felis bibendum ut. Aliquet porttitor lacus luctus accumsan tortor posuere. Auctor augue mauris augue neque. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Eros donec ac odio tempor orci.</p>
+                    <a href="post4.html">Read More</a>
+                </div>
+            </div>
+
+            <div class="category">
+                <h2>Categories</h2>
+                <hr>
+                <a href="#">Frontend Development</a>
+                <hr>
+                <a href="#">Web Design</a>
+                <hr>
+                <a href="#">Python Language</a>
+                <hr>
+                <a href="#">Javascript</a>
+                <hr>
+                <a href="#">Web Development</a>
+                <hr>
+                <a href="#">Application Development</a>
+                <hr>
+            </div>
+        </section>
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Welcome to the latest news at Illinois Tech University.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2023 All rights reserved | This layout was made by Heidy Rodriguez for demonstration purposes</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+    </body>
+</html>
